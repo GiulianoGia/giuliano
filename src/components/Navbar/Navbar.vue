@@ -1,0 +1,19 @@
+<template>
+    <div class="navbar">
+        <div class="navbar__container">
+            <div class="container__flexbox">
+                <div class="flexbox__item">
+                    <p class="item__title"><a href="/">Giuliano Gianola</a></p>
+                </div>
+                <div class="flexbox__item">
+                    <p class="item__item">Projects</p>
+                    <p class="item__item">About</p>
+                    <p class="item__item"><a href="https://github.com/GiulianoGia" target="_blank">Github</a></p>
+                    <p class="item__item"><a href="https://intranet.swisscom.com/home/profile/i:0e.t%7Cazuread%7Ctaagigi3" target="_blank">Intranet</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
+<script lang="ts" src="./Navbar.ts"></script>
+<style src="./Navbar.scss" lang="scss"></style>

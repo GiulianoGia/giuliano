@@ -1,0 +1,35 @@
+.navbar {
+    position: sticky;
+    top: 30px;
+    width: 100%;
+    height: 4rem;
+    background-color: black;
+
+    &__container {
+        height: 100%;
+        border-bottom: 1.5px solid rgb(45, 47, 57);
+
+        .container__flexbox {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 100%;
+
+            .flexbox__item {
+                display: flex;
+                gap: 30px;
+
+                .item__item {
+                    cursor: pointer;
+                }
+                .item__title {
+                    cursor: pointer;
+                    padding: 0;
+                    margin: 0;
+                    font-size: 23px;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
