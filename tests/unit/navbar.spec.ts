@@ -1,8 +1,13 @@
-import { shallowMount } from '@vue/test-utils'
-import Navbar from "../../src/components/Navbar/Navbar";
+import { mount } from '@vue/test-utils'
+import Navbar from "@/components/Navbar/Navbar.vue";
 
-describe('Navbar.vue', () => {
-    it('should show Giuliano Gianola', () => {
-        expect(2-1).toBe(1)
+describe('Navbar', () => {
+    it('should show Giuliano Gianola in the Navbar', () => {
+        const wrapper = mount(Navbar);
+        expect(wrapper.html()).toContain('Giuliano Gianola');
     });
-  })
+    it('should show Projects in the Navbar', () => {
+        const wrapper = mount(Navbar);
+        expect(wrapper.html()).toContain('Projects');
+    });
+});
