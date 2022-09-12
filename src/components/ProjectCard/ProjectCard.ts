@@ -1,4 +1,7 @@
 import { defineComponent } from "vue"
 export default defineComponent({
-    name: 'ProjectCard'
+    name: 'ProjectCard',
+    props: {
+        
+    }
 })
