@@ -1,9 +1,9 @@
 let servestatic = require('serve-static')
 let path = require('path')
 let express = require('express')
-let port = process.env.PORT || 3000;
+let port = process.env.PORT || 8080;
 app = express();
-if(process.env.NODE_ENV === 'production'){
-   app.use(servestatic(path.join(path.resolve(), 'dist')));
-}
+
+app.use(servestatic(path.join(__dirname, '/dist')));
+
 app.listen(port, () => {console.log("API server started on "+app.get('port'));});
