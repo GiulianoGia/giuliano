@@ -6,7 +6,7 @@
                     <p v-if="windowWidth > 920" class="item__title"><a href="/">Giuliano Gianola</a></p>
                     <p v-else class="item__title"><a href="/">GG</a></p>
                 </div>
-                <div class="flexbox__item" v-if="windowWidth > 920">
+                <div class="flexbox__item" v-if="windowWidth > 500">
                     <p class="item__item">Projects</p>
                     <p class="item__item">About</p>
                     <p class="item__item"><a href="https://github.com/GiulianoGia" target="_blank">Github</a></p>

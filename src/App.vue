@@ -54,6 +54,10 @@ body {
   margin: 0;
   padding: 0;
 }
+a {
+  color: white;
+  text-decoration: none;
+}
 #app {
   height: min-content;
   padding: 2rem 10rem 0 10rem;
@@ -63,8 +67,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: black;
 }
-a {
-  color: white;
-  text-decoration: none;
+@media only screen and (max-width: 920px) {
+  #app {
+    padding: 2rem 2rem;
+  }
 }
 </style>
