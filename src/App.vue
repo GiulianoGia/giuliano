@@ -47,17 +47,17 @@ export default defineComponent({
 
 <style>
 html {
-  height: 100vh;
+  background-color: black;
 }
 body {
-  height: 100vh;
+  height: min-content;
   margin: 0;
   padding: 0;
 }
 #app {
+  height: min-content;
   padding: 2rem 10rem 0 10rem;
   color: white;
-  height: 100vh;
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
