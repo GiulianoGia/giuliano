@@ -1,0 +1,23 @@
+[
+    {
+        "name": "NexCC",
+        "description": "Das ist eine Beschreibung.",
+        "image": "swisscom_logo.jpeg",
+        "github": "www.github.com",
+        "technologies": ["Vue", "SCSS", "Javascript", "Springboot"]
+    },
+    {
+        "name": "Traily",
+        "description": "Das ist eine Beschreibung.",
+        "image": "swisscom_logo.jpeg",
+        "github": "www.github.com",
+        "technologies": ["Vue", "SCSS", "Javascript", "Springboot"]
+    },
+    {
+        "name": "MySwisscom",
+        "description": "Das ist eine Beschreibung. ",
+        "image": "swisscom_logo.jpeg",
+        "github": "www.github.com",
+        "technologies": ["Vue", "SCSS", "Javascript", "Springboot"]
+    }
+]
