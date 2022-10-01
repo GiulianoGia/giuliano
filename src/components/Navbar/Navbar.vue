@@ -13,7 +13,7 @@
                     <p class="item__item"><a href="https://intranet.swisscom.com/home/profile/i:0e.t%7Cazuread%7Ctaagigi3" target="_blank">Intranet</a></p>
                 </div>
                 <div v-else>
-                    <img class="flexbox__image" src="../../assets/images/more.png" alt="">
+                    <img class="flexbox__image" src="@/assets/img/more.png" alt="">
                 </div>
             </div>
         </div>

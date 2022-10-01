@@ -2,7 +2,7 @@
   <div class="project-card">
     <img
       class="project-card__img"
-      :src="require(`@/assets/images/${project.image}`)"
+      :src="require(`@/assets/img/${project.image}`)"
     />
     <p class="project-card__description">
       {{ project.description }}
