@@ -16,4 +16,4 @@ export default defineComponent({
             this.windowWidth = window.innerWidth
           }
     }
-})
+});

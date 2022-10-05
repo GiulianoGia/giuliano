@@ -2,7 +2,7 @@
     {
         "name": "NexCC",
         "description": "Das ist eine Beschreibung.",
-        "image": "swisscom_logo.jpeg",
+        "image": "swisscom_logo.webp",
         "github": "www.github.com",
         "time": "",
         "reference": "",
@@ -17,7 +17,7 @@
         "name": "Traily",
         "description": "Frontend Developer @Traily",
         "reference": "Dillan Conese",
-        "image": "traily.png",
+        "image": "traily.webp",
         "github": "www.github.com",
         "time": "01.02.2022 - 22.07.2022",
         "technologies": [
@@ -30,9 +30,9 @@
     {
         "name": "MySwisscom",
         "description": "Frontend Developer bei den Avengers (R2A)",
-        "image": "mySwisscom.jpeg",
+        "image": "mySwisscom.webp",
         "github": "www.github.com",
-        "time": "",
+        "time": "31.10.2022 - 31.01.2023",
         "reference": "Simon Leutwiler",
         "technologies": [
             "Vue",

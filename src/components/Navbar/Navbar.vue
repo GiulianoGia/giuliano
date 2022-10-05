@@ -23,7 +23,7 @@
           </p>
         </div>
         <div v-else>
-          <img class="flexbox__image" src="@/assets/img/more.png" alt="" />
+          <img class="flexbox__image" src="@/assets/img/more.webp" alt="" />
         </div>
       </div>
     </div>

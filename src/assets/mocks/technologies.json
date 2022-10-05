@@ -1,0 +1,37 @@
+[
+    {
+        "img": "js.webp",
+        "name": "javascript",
+        "procent": 80
+    },
+    {
+        "img": "ts.webp",
+        "name": "typescript",
+        "procent": 80
+    },
+    {
+        "img": "spring.webp",
+        "name": "spring boot",
+        "procent": 70
+    },
+    {
+        "img": "vue.webp",
+        "name": "vue",
+        "procent": 80
+    },
+    {
+        "img": "sql.webp",
+        "name": "sql",
+        "procent": 60
+    },
+    {
+        "img": "angular.webp",
+        "name": "angular",
+        "procent": 30
+    },
+    {
+        "img": "swift.webp",
+        "name": "swift",
+        "procent": 30
+    }
+]

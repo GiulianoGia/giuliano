@@ -2,7 +2,7 @@
     &__interduction {
         display: flex;
         flex-direction: row;
-        margin-bottom: 2.5rem;
+        margin-bottom: 5rem;
 
         .interduction__self-image {
             margin-right: 5rem;
@@ -13,17 +13,29 @@
 
             .self-image__img {
                 width: 300px;
+                height: 300px;
             }
         }
+
         .interduction__description {
-            .description__highlight {
-                padding: 5px;
-                border-radius: 5px;
-                background-color: rgba(137, 64, 255, 0.476);
+            .description__information {
+                margin-bottom: 2rem;
+                .information__subtitle {
+                    padding: 5px;
+                    border-bottom: 1.5px solid rgb(45, 47, 57);
+                }
+                .information__highlight {
+                    padding: 5px;
+                    border-radius: 5px;
+                    background-color: rgba(137, 64, 255, 0.476);
+                }
             }
         }
     }
-
+    &__subtitle {
+        padding: 5px;
+        border-bottom: 1.5px solid rgb(45, 47, 57);
+    }
     &__interests {
         display: flex;
         justify-content: space-between;
@@ -50,6 +62,40 @@
                 font-size: larger;
                 font-weight: 750;
             }
+        }
+    }
+    &__knowledge {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 5rem;
+        margin-bottom: 5rem;
+
+        .knowledge__container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+            .container__img {
+                width: 100px;
+                height: 100px;
+                object-fit: cover;
+            }
+        }
+
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .about-me {
+        &__interduction {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 1rem;
+
+            .interduction__self-image {
+                margin-right: 0px;
+             }
         }
     }
 }
