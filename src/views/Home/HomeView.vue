@@ -1,9 +1,10 @@
 <template>
   <div class="home">
+    <div class="home__about-me">
+      <AboutMe :interest="interests" />
+    </div>
     <div class="home__projects">
-      <div v-for="project in projects" :key="project">
-        <ProjectCard :project="project"/>
-      </div>
+      <Projects />
     </div>
   </div>
 </template>

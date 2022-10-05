@@ -3,13 +3,11 @@ import ProjectCard from "@/components/ProjectCard/ProjectCard.vue";
 import { Project } from "types/Project";
 import projects from "@/assets/mocks/projects.json";
 import AboutMe from "@/views/AboutMe/AboutMe.vue";
-import Projects from "../Projects/Projects.vue";
 export default defineComponent({
-  name: "HomeView",
+  name: "Projects",
   components: {
     ProjectCard,
-    AboutMe,
-    Projects
+    AboutMe
   },
   data() {
     return {

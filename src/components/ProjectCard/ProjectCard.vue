@@ -5,7 +5,11 @@
       :src="require(`@/assets/img/${project.image}`)"
     />
     <p class="project-card__description">
-      {{ project.description }}
+      <span>{{ project.description }}</span>
+      <br />
+      <span><strong>Dauer:</strong> {{ project.time }}</span>
+      <br />
+      <span><strong>Projektanbieter:</strong> {{ project.reference }}</span>
     </p>
     <div class="project-card__flexbox">
       <p

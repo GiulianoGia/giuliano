@@ -1,33 +1,7 @@
 .home {
   margin-top: 4rem;
-  &__projects {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 5px;
-      grid-row-gap: 2rem;
-  }
-}
 
-@media only screen and (max-width: 1000px) {
-  .home {
-    &__projects {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(2, 1fr);
-      grid-column-gap: 5px;
-      grid-row-gap: 2rem;
-    }
-  }
-}
-@media only screen and (max-width: 500px) {
-  .home {
-    &__projects {
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-template-rows: repeat(3, 1fr);
-      grid-column-gap: 5px;
-      grid-row-gap: 2rem;
-    }
+  &__about-me {
+    margin-bottom: 5rem;;
   }
 }

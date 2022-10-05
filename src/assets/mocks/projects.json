@@ -4,20 +4,41 @@
         "description": "Das ist eine Beschreibung.",
         "image": "swisscom_logo.jpeg",
         "github": "www.github.com",
-        "technologies": ["Vue", "SCSS", "Javascript", "Springboot"]
+        "time": "",
+        "reference": "",
+        "technologies": [
+            "Vue",
+            "SCSS",
+            "Javascript",
+            "Springboot"
+        ]
     },
     {
         "name": "Traily",
-        "description": "Das ist eine Beschreibung.",
-        "image": "swisscom_logo.jpeg",
+        "description": "Frontend Developer @Traily",
+        "reference": "Dillan Conese",
+        "image": "traily.png",
         "github": "www.github.com",
-        "technologies": ["Vue", "SCSS", "Javascript", "Springboot"]
+        "time": "01.02.2022 - 22.07.2022",
+        "technologies": [
+            "Vue",
+            "SCSS",
+            "Javascript",
+            "Springboot"
+        ]
     },
     {
         "name": "MySwisscom",
-        "description": "Das ist eine Beschreibung. ",
-        "image": "swisscom_logo.jpeg",
+        "description": "Frontend Developer bei den Avengers (R2A)",
+        "image": "mySwisscom.jpeg",
         "github": "www.github.com",
-        "technologies": ["Vue", "SCSS", "Javascript", "Springboot"]
+        "time": "",
+        "reference": "Simon Leutwiler",
+        "technologies": [
+            "Vue",
+            "SCSS",
+            "Javascript",
+            "Springboot"
+        ]
     }
 ]

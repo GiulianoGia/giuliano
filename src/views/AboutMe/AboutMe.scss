@@ -1,0 +1,55 @@
+.about-me {
+    &__interduction {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 2.5rem;
+
+        .interduction__self-image {
+            margin-right: 5rem;
+            width: min-content;
+            padding: 20px;
+            border-bottom: 1.5px solid rgb(137, 64, 255);
+            border-radius: 100%;
+
+            .self-image__img {
+                width: 300px;
+            }
+        }
+        .interduction__description {
+            .description__highlight {
+                padding: 5px;
+                border-radius: 5px;
+                background-color: rgba(137, 64, 255, 0.476);
+            }
+        }
+    }
+
+    &__interests {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        .interests__list {
+            .list__tags {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 1rem;
+
+                .tags__item {
+                    width: min-content;
+                    background-color: rgba(56, 138, 253, 0.287);
+                    padding: 5px 10px;
+                    color: rgba(56, 138, 253, 1);
+                    border-radius: 10px;
+                    margin: 0px;
+                }
+            }
+
+            .list__title {
+                font-size: larger;
+                font-weight: 750;
+            }
+        }
+    }
+}

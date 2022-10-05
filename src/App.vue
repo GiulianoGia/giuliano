@@ -54,6 +54,9 @@ body {
   margin: 0;
   padding: 0;
 }
+body::-webkit-scrollbar {
+  display: none;
+}
 a {
   color: white;
   text-decoration: none;

@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Hockey",
+        "description": "Das ist eine kurze Beschreibung",
+        "tags": ["Test1", "Test2"]
+    },
+    {
+        "name": "Coding",
+        "description": "Das ist eine kurze Beschreibung",
+        "tags": ["Test1", "Test2"]
+    },
+    {
+        "name": "Filme | Serien",
+        "description": "Das ist eine kurze Beschreibung",
+        "tags": ["Test1", "Test2"]
+    },
+    {
+        "name": "Neueste Technologien",
+        "description": "Das ist eine kurze Beschreibung",
+        "tags": ["Test1", "Test2"]
+    }
+]
